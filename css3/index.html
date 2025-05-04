@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box {
+      width: 2300px;
+      height: 400px;
+      background-image: url('./image.png');
+      background-color: lightgray;
+      background-repeat: repeat; /* Try: no-repeat, repeat-x, repeat-y, space, round */
+      border: 2px solid black;
+    }
+    .box2 {
+      width: 2300px;
+      height: 400px;
+      background-image: url('./image.png');
+      background-color: lightgray;
+      background-repeat: inherit; /* Try: no-repeat, repeat-x, repeat-y, space, round */
+      border: 2px solid black;
+    }
+    .box3 {
+      width: 2300px;
+      height: 400px;
+      background-image: url('./image.png');
+      background-color: lightgray;
+      background-repeat: no-repeat; /* Try: no-repeat, repeat-x, repeat-y, space, round */
+      border: 2px solid black;
+    }
+    .box4 {
+      width: 2300px;
+      height: 400px;
+      background-image: url('./image.png');
+      background-color: lightgray;
+      background-repeat: repeat-x; /* Try: no-repeat, repeat-x, repeat-y, space, round */
+      border: 2px solid black;
+    }
+    .box5 {
+      width: 2300px;
+      height: 1300px;
+      background-image: url('./image.png');
+      background-color: lightgray;
+      background-repeat: repeat-y; /* Try: no-repeat, repeat-x, repeat-y, space, round */
+      border: 2px solid black;
+    }
+    .box6 {
+      width: 2300px;
+      height: 400px;
+      background-image: url('./image.png');
+      background-color: lightgray;
+      background-repeat: round; /* Try: no-repeat, repeat-x, repeat-y, space, round */
+      border: 2px solid black;
+    }
+    .box7 {
+      width: 2300px;
+      height: 400px;
+      background-image: url('./image.png');
+      background-color: lightgray;
+      background-repeat: space; /* Try: no-repeat, repeat-x, repeat-y, space, round */
+      border: 2px solid black;
+    }
+    .box8 {
+      width: 2300px;
+      height: 400px;
+      background-image: url('./image.png');
+      background-color: lightgray;
+      background-repeat: unset; /* Try: no-repeat, repeat-x, repeat-y, space, round */
+      border: 2px solid black;
+    }
+    
+
+    .box {
+      width: 2300px;
+      height: 2150px;
+      border: 1px solid #000;
+      background-image: url('./image.png'); /* small image */
+      background-size: auto;
+      margin-bottom: 20px;
+    }
+
+    .repeat-x {
+      background-repeat: repeat-x; /* Repeat horizontally */
+    }
+
+    .repeat-y {
+      background-repeat: repeat-y; /* Repeat vertically */
+    }
+
+    .no-repeat {
+      background-repeat: no-repeat; /* No repeat */
+    }
+
+    .repeat {
+      background-repeat: repeat; /* Repeat both X and Y */
+    }
+  </style>
+</head>
+<body>
+  <p>Background-repeat repeat, </p>
+  <div class="box"></div>
+  <p>Background-repeat inherit, default browser</p>
+  <div class="box2"></div>
+  <p>Background-repeat no-repeat, no repeat</p>
+  <div class="box3"></div>
+  <p>Background-repeat repeat-x</p>
+  <div class="box4"></div>
+  <p>Background-repeat repeat-y</p>
+  <div class="box5"></div>
+
+  <h2>repeat-x (horizontal only)</h2>
+  <div class="box repeat-x"></div>
+
+  <h2>repeat-y (vertical only)</h2>
+  <div class="box repeat-y"></div>
+
+
+  <p>Background-repeat round</p>
+  <div class="box6"></div>
+
+  <p>Background-repeat space</p>
+  <div class="box7"></div>
+
+
+  <p>Background-repeat unset</p>
+  <div class="box8"></div>
+
+</body>
+</html>

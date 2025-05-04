@@ -9,7 +9,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/Users/hilman/Documents/learnHtml/basic/css1/index.html"
+            "file": "/Users/hilman/Documents/learnHtml/basic/css/index.html"
         }
     ]
 }
